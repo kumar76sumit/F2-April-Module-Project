@@ -1,0 +1,58 @@
+* {
+  font-family: Arial, sans-serif;
+}
+body {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+#inputForm {
+  display: flex;
+  justify-content: space-between;
+}
+.inputField {
+  margin: 20px 0px;
+  width: 26vw;
+  height: 25px;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+button {
+  height: 35px;
+  width: 120px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+p {
+  color: #ccc;
+}
+h2 {
+  margin-bottom: 25px;
+}
+.errorMessage {
+  color: red;
+}
+.successMessage {
+  color: green;
+}
+.newUserSection {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.userDetails {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 18px;
+}
+.deleteButton {
+  margin-top: 11px;
+  border-radius: 20px;
+}
